@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+<style>
+    
+     body{
+          font-family: "Lato", sans-serif;
+        background-image: url(5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .help{
+        margin-top: 225px;
+    }
+    .login{
+    width: 300px;
+    margin-left: 42%;
+    border :1px solid;
+    padding:8px;
+    box-shadow: 0px 0px g;
+    background-color:; 
+    width: 300px;
+    height: 300px;
+   
+    border: solid 5px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    opacity: 1;
+    padding: auto;
+        
+    }
+   
+    button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+        height: 16%
+}
+
+button:hover {
+   background-color: black;
+  opacity: 0.8;
+}
+    .openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+ span{
+            color: white;
+        }
+
+.cancelbtn {
+  width: 30%;
+    height: 16%;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+    background-color: black;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: green;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    .navbar-brand{
+        margin-top: 10%;
+        margin-left: 48%;
+    }
+    .dropdown-menu{
+        background-color: black;
+        color: black;
+    }
+   
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav fixed-top">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Login
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Services</a>
+         <a class="dropdown-item" href="#">Help</a>
+           <a class="dropdown-item" href="#">Contact</a>
+       
+      </div>
+    </li>
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#"></a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; fixed-top color: aliceblue" onclick="openNav()">☰ Menu</span>
+    
+    <a class="navbar-brand fixed-top" href="Shopping_website_home.html">
+    <img src="jacamo_logo.jpg" alt="logo" style="width:130px;">
+  </a>
+        
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    
+    <div class="help">
+     <div class="login" style="text-align: center">
+         <h2 align="center" ><i><b>LOGIN</b></i></h2>
+            <label for="usr"><b></b></label>
+        <input type="text" class="form-control" id="usr" name="username" placeholder="User id">
+        <label for="pwd" ><b></b></label>
+        <input type="password" class="form-control"
+        id="pwd" name="password" placeholder="Password"><br>
+       <button type="button" class="cancelbtn" onclick="#">Cancel</button> 
+         <button type="login" onclick="submit"> <a href="Shopping_website_home.html" style="color: white">Login</a></button><br>
+         <label>
+      <input type="checkbox" checked="checked" name="remember"><b> Remember me</b>
+    </label>
+        <br><br>
+        <div class="container" style="background-color:">
+    <b>
+    <span class="psw" style="color: white">Forgot <a href="#">password?</a></span></b>
+  </div>
+    </div>
+        </div>
+
+     <footer class="w3-container w3-padding-10 w3-light-grey w3-center w3-xlarge fixed-bottom" >   
+    <div class="container">
+       <div class="w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+    
+       </div>
+    </footer>
+</body>
+</html> 

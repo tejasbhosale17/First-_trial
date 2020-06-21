@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>MEN CLOSET</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+             font-family: "Lato", sans-serif;
+            background-color: black;
+        }
+        
+        
+        .help{
+        margin-top: 225px;
+    }
+    .login{
+    width: 300px;
+    margin-left: 42%;
+    border :1px solid;
+    padding:8px;
+    box-shadow: 0px 0px g;
+    background-color:; 
+    width: 300px;
+    height: 300px;
+   
+    border: solid 5px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    opacity: 1;
+    padding: auto;
+        
+    }
+   
+    button {
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+        height: 16%
+}
+
+button:hover {
+    color: white;
+  opacity: 0.8;
+}
+
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+        span{
+            color: white;
+        }
+
+.sidenav a:hover {
+  color: #4CAF50;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    .navbar-brand{
+        margin-top: 0;
+        margin-left: 39%;
+    }
+    .dropdown-menu{
+        background-color: black;
+        color: aliceblue;
+        }
+        
+    .grid-container 
+ {
+  margin-top: 10%;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+  }
+
+.grid-item 
+        {
+    height: 300px;
+    width: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+           
+        }
+        h3{
+            margin-left: 100px;
+        }
+        </style>
+    </head>
+<body>
+    
+    
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Men</a>
+  <a href="#clothing">Clothing</a>
+  <a href="#jackets">Jackets</a>
+  <a href="#footware">Footware</a>
+  <a href="#watches">Watches</a>
+  <a href="#other">Other Accessories</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; 
+             fixed-top color: aliceblue" onclick="openNav()">☰ Menu</span>
+    
+    <a class="navbar-brand" href="#">
+    <img src="jacamo_logo.jpg" alt="logo" style="width:130px;">
+  </a>
+        
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+ 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script><br>
+    <div class="stock">
+    
+    <div class="clothing" id="clothing" style="color: white">
+        <h3>     Clothing</h3>
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <img src="men_hoodie_4.jpg" alt="dog" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="meni_shirt_8.jpg" alt="tigers" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_jeans_2.jpg" alt="rabbit" style="width:100%;"></div> 
+                  </div>
+      </div><br>
+    </div>
+    <div class="jackets" id="jackets" style="color: white">
+        <h3>     Jackets</h3>
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <img src="men_jackets_1.jpg" alt="dog" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_jackets_2.jpg" alt="tigers" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_jackets_3.jpg" alt="rabbit" style="width:100%;"></div> 
+                  </div>
+      </div><br>
+    </div> <div class="footware" id="footware" style="color: white">
+        <h3>     Footware</h3>
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <img src="men_shoes_4.jpg" alt="dog" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_shoes_5.jpg" alt="tigers" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_shoes_6.jpg" alt="rabbit" style="width:100%;"></div> 
+                  </div>
+      </div>
+    </div><br>
+    <div class="watches" id="watches" style="color: white">
+        <h3>     Watches</h3>
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <img src="men_watches_4.jpg" alt="dog" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_watches_5.jpg" alt="tigers" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_watches_6.jpg" alt="rabbit" style="width:100%;"></div> 
+                  </div>
+      </div>
+    </div><br>
+    <div class="other" id="other" style="color: white">
+        <h3>     Other Accessories</h3>
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <img src="men_leather_bag_2.jpg" alt="dog" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_belt_1.webp" alt="tigers" style="width:100%;"></div>
+      <div class="col-sm-4">
+ 
+      <img src="men_scarfs_1.jfif" alt="rabbit" style="width:100%;"></div> 
+                  </div>
+      </div>
+    </div>
+    </div>
+    
+     <footer class="w3-container w3-padding-10 w3-light-grey w3-center w3-xlarge fixed-bottom" >   
+    <div class="container">
+       <div class="w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+    
+       </div>
+    </footer>
+
+    </body>
+</html>
